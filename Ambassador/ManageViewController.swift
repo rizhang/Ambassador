@@ -39,10 +39,7 @@ class ManageViewController: UIViewController, UITextFieldDelegate {
             self.nameTextField?.frame = orgFrame!;
             
             }, completion: { (Boolean) -> Void in
-                //add pause later
-//                var frame = self.coolMessageLabel?.frame
-//                frame?.size.height = 0;
-//                self.coolMessageLabel?.frame = frame!;
+
                 self.coolMessageLabel.alpha = 0.0;
                 UIView.animateWithDuration(0.3, animations: { () -> Void in
                     self.coolMessageLabel.alpha = 1.0
@@ -83,14 +80,5 @@ class ManageViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

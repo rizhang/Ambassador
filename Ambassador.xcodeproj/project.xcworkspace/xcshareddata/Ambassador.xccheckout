@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>888C79EF-10B6-49C7-93DB-0AACA8C4B9DC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Ambassador</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>91E51ACD65E2A5D2F9FFE12646ECEE6DE6E6579F</key>
 		<string>https://github.com/rizhang/Ambassador.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Ambassador.xcodeproj/project.xcworkspace</string>
+	<string>Ambassador.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>91E51ACD65E2A5D2F9FFE12646ECEE6DE6E6579F</key>

@@ -13,12 +13,10 @@ extension UIColor{
     func getMainDarkBlueColor() -> UIColor {
         var color: UIColor = UIColor(red: CGFloat(0.176), green: CGFloat(0.243), blue: CGFloat(0.310), alpha: CGFloat(1.0))
         return color
-        // [UIColor colorWithRed:0.176f green:0.243f blue:0.310f alpha:1.00f]
     }
     
     func getLightBlueColor() -> UIColor {
         return UIColor(red: CGFloat(0.255), green: CGFloat(0.596), blue: CGFloat(0.820), alpha: CGFloat(1.0))
-         //[UIColor colorWithRed:0.255f green:0.596f blue:0.820f alpha:1.00f]
     }
     
     func getBorderOrange() -> UIColor {
@@ -56,13 +54,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         }
         
-//        if ([textField respondsToSelector:@selector(setAttributedPlaceholder:)]) {
-//            UIColor *color = [UIColor blackColor];
-//            textField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:placeholderText attributes:@{NSForegroundColorAttributeName: color}];
-//        } else {
-//            NSLog(@"Cannot set placeholder text's color, because deployment target is earlier than iOS 6.0");
-//            // TODO: Add fall-back code to set placeholder color.
-//        }
     }
     
     override func viewDidAppear(animated: Bool) {
